@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Тестовое задание</title>
+    <meta name="description" content="Тестовое задание:">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div id="menu">
+        <div id="info" onclick="showInfo();"></div>
+        <div id="bet">
+            <div id="plus" onclick="changeBet(0);"></div>
+            <div id="minus" onclick="changeBet(1);"></div>
+            <div id="totalbet"><span>TOTAL BET</span> <br>$0.75 </div>            
+        </div>
+        <div id="coin"><span>COIN</span> <br>$0.05 </div>
+        <div id="field">GOOD LUCK!</div>
+        <div id="turbo-off" onclick="changeTurbo();"></div>
+        <div id="right" onmouseleave="hideSpin();">
+            <div id="wrap-spin" onmouseleave="hideSpin();">
+                <div id="spin" >
+                    <ul >
+                       <li>UNTIL FEATURE</li>
+                        <li>25 SPINES</li>
+                        <li>20 SPINES</li>
+                        <li>15 SPINES</li>
+                        <li>10 SPINES</li>
+                        <li>5 SPINES</li>                
+                    </lu>
+                </div>
+            </div>
+            <div id="auto" onmouseover="showSpin();">
+                <p id="auto-text">AUTO</p>
+            </div>
+            <div id="button" onmouseleave="rotateImg();" onclick="push();">
+                <div id="play"  ></div>
+                <audio id="sound" src="Button_Click.wav"></audio>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>

@@ -1,0 +1,305 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('img/winningFrameBackground.jpg');
+    background-repeat: repeat;
+}
+
+canvas {
+    width: 2360px;
+    height: 1250px;
+    margin: 0px auto 0px auto;
+}
+
+.slot {
+    width: 1040px;
+    height: 559px;
+    padding: 40px 55px 25px 35px;
+    margin: 50px auto 50px auto;
+    background-image: url('../img/slotOverlay.png');
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#menu {
+    width: 1289px;
+    height: 300px;
+    margin: 500px auto 0px auto;
+    background-image: url('img/back.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#info {
+    float: left;
+    margin: 29px 0px 0px 66px;
+    width: 56px;
+    height: 56px;
+    background-image: url('img/button-info.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0px -209px;
+}
+
+#info:hover {
+    background-position: 0px -69px;
+}
+
+#info:active {
+    background-position: 0px 0px;
+}
+
+#info-not-active {
+    background-position: 0px -140px;    
+}
+
+#bet {
+    float: left;
+    margin: 29px 0px 0px 6px;
+    width: 199px;
+    height: 54px;
+    /*background-image: url('img/bet-back.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;    */
+}
+
+#plus, #plus-not-active {
+    float: left;
+    margin: 6px;
+    width: 43px;
+    height: 43px;
+    background-image: url('img/little-buttons-plus.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#plus {
+    background-position: 0px -166px;
+}
+
+#plus:hover {
+    background-position: 0px -55px;
+}
+
+#plus:active {
+    background-position: 0px 0px;
+}
+
+#plus-not-active {
+    background-position: 0px -110px;    
+}
+
+#totalbet {
+    float: left;
+    margin: 6px 0px 6px 0px;
+    height: 32px;
+    color: #ffd100;
+    text-align: center;
+}
+
+#totalbet span, #coin span {
+    color: #ff6972;
+    font-size: 15px;
+}
+
+#minus, #minus-not-active {
+    float: right;
+    margin: 6px;
+    width: 43px;
+    height: 43px;
+    background-image: url('img/little-buttons-minus.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#minus {
+    background-position: 0px -166px;
+}
+
+#minus:hover {
+    background-position: 0px -55px;
+}
+
+#minus:active {
+    background-position: 0px 0px;
+}
+
+#minus-not-active {
+    background-position: 0px -110px;    
+}
+
+#coin {
+    float: left;
+    margin: 29px 0px 0px 4px;
+    width: 90px;
+    height: 44px;
+    padding: 6px;
+    color: #ffd100;
+    text-align: center;
+}
+
+
+#field{
+    float: left;
+    margin: 7px 0px 0px 0px;
+    width: 407px;
+    height: 51px;
+    padding: 16px 6px 6px 6px;
+    color: #ffd100;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#turbo-off, #turbo-on {
+    float: left;
+    margin: 29px 0px 0px 5px;
+    width: 84px;
+    height: 54px;
+    background-image: url('img/turbo-button.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#turbo-off {
+    background-position: 0px -180px;
+}
+
+#turbo-off:hover {
+    background-position: 0px -240px;
+}
+
+#turbo-off:active {
+    background-position: 0px -300px;
+}
+
+#turbo-on {
+   background-position: 0px -0px;
+}
+
+#turbo-on:hover {
+    background-position: 0px -60px;
+}
+
+#turbo-on:active {
+    background-position: 0px -120px;
+}
+
+#right{
+    float: left;
+    margin: 29px 0px 0px 6px;
+    width: 280px;
+    height: 54px;
+    overflow-y: visible;
+    position: relative;
+}
+
+#wrap-spin {
+    margin: 29px 0px 0px 5px;
+    width: 194px;
+    height: 183px;
+    position: absolute;
+    left: 0px; bottom: 10px;
+    overflow: hidden;
+}
+
+
+#spin {
+    margin: 29px 0px 0px 0px;
+    width: 194px;
+    height: 193px;
+    background-image: url('img/spin-back.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    left: 0px; top: 140px;
+}
+
+#spin ul {
+    padding-left: 20px;
+    list-style-type: none;
+    color: #ffd100;
+}
+
+#spin ul li:hover {
+color: white;
+}
+
+#auto {
+    position: absolute;
+    left: 0px; bottom: 0px;
+    width: 200px;
+    height: 55px;
+    background-image: url('img/spin-button.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 0px -0px;
+}
+
+#auto-text {
+    margin: 0px;
+    padding: 18px 0px 18px 36px;
+    color: #380000;
+    font-weight: bold;
+}
+
+#auto:hover {
+    background-position: 0px -130px;
+}
+
+#auto:active {
+    background-position: 0px -196px;
+}
+
+#button, #button-not-active {
+    position: absolute;
+    left: 100px; top: -62px;
+    width: 176px;
+    height: 176px;
+    background-image: url('img/big-button.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#button {
+    background-position: 0px -527px;
+}
+
+#button:hover {
+    background-position: 0px -350px;
+}
+
+#button:active {
+    background-position: 0px -176px;
+}
+
+#button-not-active {
+    background-position: 0px -0px;
+}
+
+#play  {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 28px;
+    top: 28px; 
+    background-image: url('img/play.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+
+#stop {
+    position: absolute;
+    width: 118px;
+    height: 118px;
+    left: 28px;
+    top: 28px; 
+    background-image: url('img/stop.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 0px 0px;
+    cursor: pointer;
+    transform: rotate(0deg) !important;
+}
